@@ -14,4 +14,27 @@
     <dimen name="time_card_margin_card">5dp</dimen>
     <dimen name="like_margin_top_card">10dp</dimen>
     <dimen name="bottonbar_height">70dp</dimen>
+    <dimen name="appbarlayout_height">256dp</dimen>
+    <dimen name="textsize_usernamedetail">25sp</dimen>
+    <dimen name="textsize_likenumberdetail">15sp</dimen>
+    <dimen name="margin_left_detail_secondword">7dp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="padding_tittle_imagendetail">20dp</dimen>
+    <dimen name="padding_horizontal_textcontentdetail">35dp</dimen>
+    <dimen name="username_profile">30dp</dimen>
+    <dimen name="simen_circleprofile">160dp</dimen>
+    <dimen name="margintop_circleimage">30dp</dimen>
+    <dimen name="elevation_circle_imageprofile">10dp</dimen>
+    <dimen name="depend_targety_profile">-190dp</dimen>
+    <dimen name="margin_toptoolbar_circleimage_profile">6dp</dimen>
+    <dimen name="width_circleimagetoolbar">40dp</dimen>
+    <dimen name="textsize_username_toolbarprofile">18dp</dimen>
+    <dimen name="marginleft_username_toolbarprofile">72dp</dimen>
+    <dimen name="margintop_username_toolbarprofile">-100dp</dimen>
+    <dimen name="depend_targety_textprofile">150dp</dimen>
+    <dimen name="margin_topy_toolbar_circleimage_profile">15dp</dimen>
+    <dimen name="paddingtop_linear_profile">190dp</dimen>
+    <dimen name="paddingbottom_linear_profile">40dp</dimen>
+    <dimen name="margin_left_linear_profile">16dp</dimen>
+    <dimen name="margin_right_linear_profile">16dp</dimen>
 </resources>
