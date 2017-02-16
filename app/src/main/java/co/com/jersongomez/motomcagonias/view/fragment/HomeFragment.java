@@ -2,7 +2,9 @@ package co.com.jersongomez.motomcagonias.view.fragment;
 
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -45,6 +47,18 @@ public class HomeFragment extends Fragment {
                 new PictureAdapterRecycleView(buidPictures(), R.layout.cardview_picture, getActivity());
 
         picturesRecycler.setAdapter(pictureAdapterRecycleView);
+
+        FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewPostFragment newPostFragment = new NewPostFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, newPostFragment)
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                        .addToBackStack(null).commit();
+            }
+        });
 
         return view;
     }
